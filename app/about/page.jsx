@@ -1,3 +1,4 @@
+"use client";
 import Cta from "@components/Cta"
 import AboutHero from "@sections/About/AboutHero"
 import OurStory from "@sections/About/OurStory"

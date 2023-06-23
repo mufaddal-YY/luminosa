@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Seimens from "@public/seimens.png";
 import Mendix from "@public/mendixpartner.png";

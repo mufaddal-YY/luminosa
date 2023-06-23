@@ -1,3 +1,4 @@
+"use client";
 import ServiceCard from "@components/Cards/ServiceCard";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";

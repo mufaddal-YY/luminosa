@@ -1,3 +1,4 @@
+"use client";
 import Cta from "@components/Cta"
 import FillerSection from "@sections/Home/FillerSection"
 import HeroBanner from "@sections/Home/HeroBanner"

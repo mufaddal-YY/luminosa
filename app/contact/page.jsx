@@ -1,3 +1,4 @@
+"use client";
 import ContactHero from '@sections/Contact/ContactHero'
 import Map from '@sections/Contact/Map'
 

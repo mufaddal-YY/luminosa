@@ -1,3 +1,4 @@
+"use client";
 import Cta from "@components/Cta";
 import GetInTouch from "@sections/Partners/GetInTouch";
 import HeroPartners from "@sections/Partners/HeroPartners";

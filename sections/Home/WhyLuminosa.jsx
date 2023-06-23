@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import WhyLumi from '@public/whyLuminosa.png'
 const WhyLuminosa = () => {

@@ -15,43 +15,43 @@ import Tci from "@public/Tci.png";
 const Content = [
   {
     name: "TC Upgrade",
-    link: "tc-upgrade",
+    slug: "tc-upgrade",
     thumb: TcUp,
   },
   {
     name: "TC Migration",
-    link: "tc-upgrade",
+    slug: "tc-upgrade",
     thumb: TcMg,
   },
   {
     name: "PML Consulting",
-    link: "tc-upgrade",
+    slug: "tc-upgrade",
     thumb: PMLC,
   },
   {
     name: "Mendix",
-    link: "tc-upgrade",
+    slug: "tc-upgrade",
     thumb: Mendix,
   },
   {
     name: "Teamcenter (Customization & Development)",
-    link: "tc-upgrade",
+    slug: "tc-upgrade",
     thumb: Tcnd,
   },
 
   {
     name: "Mendix ( For Teamcenter )",
-    link: "tc-upgrade",
+    slug: "tc-upgrade",
     thumb: MFT,
   },
   {
     name: "Staffing",
-    link: "tc-upgrade",
+    slug: "tc-upgrade",
     thumb: Staff,
   },
   {
     name: "Teamcenter (Cloud Implementation)",
-    link: "tc-upgrade",
+    slug: "tc-upgrade",
     thumb: Tci,
   },
 ];
@@ -69,7 +69,7 @@ const Services = () => {
           </div>
           <div className="flex-column">
             <Link
-              href={""}
+              href={"/services"}
               className="btn-secondary button-md radius-md m-t20 m-b20">
               View All <BsArrowRight />
             </Link>
@@ -82,7 +82,7 @@ const Services = () => {
               <div className="col-lg-3 col-md-4 col-sm-6">
                 <div className="p-10">
                   <ServiceCard
-                    link={item.link}
+                    link={item.slug}
                     name={item.name}
                     image={item.thumb}
                   />

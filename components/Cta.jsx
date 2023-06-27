@@ -14,7 +14,7 @@ const Cta = () => {
             your transformation today!
           </h3>
           <div className="d-flex justify-content-start">
-            <Link href={"/"} className="btn-outline-w button-md radius-md">
+            <Link href={"/contact"} className="btn-outline-w button-md radius-md">
               Get in touch <BsArrowRight />
             </Link>
           </div>

@@ -1,20 +1,60 @@
 "use client";
 
 import React from "react";
-import { useRef, useEffect } from "react";
+import { useEffect } from "react";
 import Link from "next/link";
 import Sticky from "react-stickynode";
 import Image from "next/image";
-import { useRouter } from "next/navigation"; // Import withRouter
 import { BsArrowRight } from "react-icons/bs";
 
 // Images
 import logo from "@public/logo.png";
-import { FiSmartphone } from "react-icons/fi";
-import { FaLaptopCode } from "react-icons/fa";
+
 import mendix from "@public/mendix.svg";
 
 function Header() {
+  
+  // useEffect(() => {
+  //   // Mobile Menu sidebar function
+  //   var btn = document.querySelector(".menuicon");
+  //   var nav = document.querySelector(".menu-links");
+
+  //   function toggleFunc() {
+  //     btn.classList.toggle("open");
+  //     nav.classList.toggle("show");
+  //   }
+
+  //   btn.addEventListener("click", toggleFunc);
+
+  //   // Mobile Submenu open close function
+  //   var navMenu = [].slice.call(
+  //     document.querySelectorAll(".menu-links > ul > li")
+  //   );
+
+  //   for (var y = 0; y < navMenu.length; y++) {
+  //     navMenu[y].addEventListener("click", function () {
+  //       menuClick(this);
+  //     });
+  //   }
+
+  //   function menuClick(current) {
+  //     const active = current.classList.contains("open");
+  //     navMenu.forEach((el) => el.classList.remove("open"));
+
+  //     if (active) {
+  //       current.classList.remove("open");
+  //       console.log("active");
+  //     } else {
+  //       current.classList.add("open");
+  //       console.log("close");
+  //     }
+  //   }
+
+  //   return () => {
+  //     btn.removeEventListener("click", toggleFunc);
+  //     navMenu.forEach((el) => el.removeEventListener("click", menuClick));
+  //   };
+  // }, []);
   useEffect(() => {
     // Mobile Menu sidebar function
     var btn = document.querySelector(".menuicon");
@@ -31,7 +71,6 @@ function Header() {
     var navMenu = [].slice.call(
       document.querySelectorAll(".menu-links > ul > li")
     );
-
     for (var y = 0; y < navMenu.length; y++) {
       navMenu[y].addEventListener("click", function () {
         menuClick(this);

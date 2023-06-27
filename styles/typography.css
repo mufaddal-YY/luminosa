@@ -57,7 +57,7 @@ h6 {font-size: 18px; line-height: 28px !important; margin-bottom: 10px; font-wei
 @media only screen and (max-width: 767px) {
 	h1{font-size: 40px; line-height: 40px !; margin-bottom: 20px; font-weight: 500; }
 	h2{font-size: 45px !important; line-height: 48px !; margin-bottom: 20px; font-weight: 500; }
-	h3{font-size: 40px !important; line-height: 50px !important; margin-bottom: 15px; font-weight: 500; }
+	h3{font-size: 36px !important; line-height: 48px !important; margin-bottom: 15px; font-weight: 500; }
 }
 /* sp */
 .row.sp40,

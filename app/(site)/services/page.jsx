@@ -2,7 +2,7 @@
 import ServiceCard from "@components/Cards/ServiceCard";
 import Link from "next/link";
 import Cta from "@components/Cta";
-import { getHomeData, getServices } from "@sanity/sanity-utils";
+import { getServices } from "@sanity/sanity-utils";
 
 export default async function Services() {
   const servicesData = await getServices();

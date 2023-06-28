@@ -19,7 +19,7 @@ export default {
       type: "image",
       title: "Thumb Image",
       options: {
-        hotspot: "true",
+        hotspot: 'true',
       },
     },
     
@@ -44,7 +44,7 @@ export default {
       type: "image",
       title: "Cover Image",
       options: {
-        hotspot: "true",
+        hotspot: 'true',
       },
     },
   ],

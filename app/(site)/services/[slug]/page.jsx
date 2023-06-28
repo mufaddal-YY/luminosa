@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import Cta from "@components/Cta";
 import PortableText from "react-portable-text";
@@ -7,8 +5,11 @@ import { getServicesData } from "@sanity/sanity-utils";
 
 
 export default async function ServicesPage({ params }) {
+
   const services = await getServicesData(params.slug);
   console.log(services);
+
+  
 
   return (
     <>
@@ -26,6 +27,7 @@ export default async function ServicesPage({ params }) {
               width={1080}
               height={500}
               src={services?.image}
+              alt={services.serviceTitle}
             />
           </div>
           <div className="m-t20">

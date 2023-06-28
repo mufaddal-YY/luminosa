@@ -83,7 +83,7 @@ const Services = ({ servicesData }) => {
                 <div className="p-10">
                   <ServiceCard
                     link={`services/${item.slug}`}
-                    name={item.serviceTitle}
+                    name={item?.servicesTitle}
                     image={item.thumbImage}
                   />
                 </div>

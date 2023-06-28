@@ -3,13 +3,9 @@ import Cta from "@components/Cta";
 import PortableText from "react-portable-text";
 import { getServicesData } from "@sanity/sanity-utils";
 
-
 export default async function ServicesPage({ params }) {
-
   const services = await getServicesData(params.slug);
   console.log(services);
-
-  
 
   return (
     <>
@@ -18,7 +14,7 @@ export default async function ServicesPage({ params }) {
           <div className="m-b0">
             <h6>Services</h6>
 
-            <h3 className="fw4 m-b20">{services?.serviceTitle}</h3>
+            <h3 className="fw4 m-b20">{services?.servicesTitle}</h3>
           </div>
           <hr />
           <div className="m-t10 m-b10">
@@ -27,11 +23,11 @@ export default async function ServicesPage({ params }) {
               width={1080}
               height={500}
               src={services?.image}
-              alt={services.serviceTitle}
+              alt={services?.servicesTitle}
             />
           </div>
           <div className="m-t20">
-            <p className="m-b20">
+            {services?.content && (
               <PortableText
                 // Pass in block content straight from Sanity.io
                 content={services?.serviceDesc}
@@ -40,11 +36,7 @@ export default async function ServicesPage({ params }) {
                 // Optionally override marks, decorators, blocks, etc. in a flat
                 // structure without doing any gymnastics
               />
-              {/* <PortableText
-                components={components}
-                value={services?.serviceDesc}
-              /> */}
-            </p>
+            )}
           </div>
           <div className="bg-gray-light p-40 radius-md">
             <p>{services?.blockText}</p>

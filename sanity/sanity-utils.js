@@ -77,7 +77,7 @@ export async function getServices() {
     groq`*[_type == "services"]{
       _id,
       _createdAt,
-      serviceTitle,
+      servicesTitle,
       "slug": slug.current,
       "image": image.asset->url,
       serviceDesc,
@@ -92,7 +92,7 @@ export async function getServicesData(slug) {
     groq`*[_type == "services" && slug.current == $slug][0]{
       _id,
       _createdAt,
-      serviceTitle,
+      servicesTitle,
       "slug": slug.current,
       "image": image.asset->url,
       serviceDesc,

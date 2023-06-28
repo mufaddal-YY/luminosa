@@ -1,16 +1,6 @@
 "use client";
 import ServiceCard from "@components/Cards/ServiceCard";
 import Link from "next/link";
-import { BsArrowRight } from "react-icons/bs";
-import TcUp from "@public/TcUp.png";
-import Tcnd from "@public/Tcnd.png";
-
-import Mendix from "@public/Mendix.png";
-import TcMg from "@public/TcMg.png";
-import MFT from "@public/MFT.png";
-import PMLC from "@public/PMLC.png";
-import Staff from "@public/Staff.png";
-import Tci from "@public/Tci.png";
 import Cta from "@components/Cta";
 import { getHomeData, getServices } from "@sanity/sanity-utils";
 
@@ -40,7 +30,7 @@ export default async function Services() {
                   <div className="p-10">
                     <ServiceCard
                       link={`services/${item.slug}`}
-                      name={item.serviceTitle}
+                      name={item?.servicesTitle}
                       image={item.thumbImage}
                     />
                   </div>

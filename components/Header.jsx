@@ -156,7 +156,7 @@ function Header() {
                       <ul>
                         <li className="p-10">
                           <Link
-                            href={"/services/teamcenter-implemetation"}
+                            href={"/services/teamcenter-implementation"}
                             className="d-flex justify-content-start">
                             <span className="m-r20 ">
                               <svg

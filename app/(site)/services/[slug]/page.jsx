@@ -27,7 +27,7 @@ export default async function ServicesPage({ params }) {
             />
           </div>
           <div className="m-t20">
-            {services?.content && (
+            {services?.serviceDesc && (
               <PortableText
                 // Pass in block content straight from Sanity.io
                 content={services?.serviceDesc}

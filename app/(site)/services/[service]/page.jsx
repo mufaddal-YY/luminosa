@@ -6,8 +6,9 @@ import { getServicesData } from "@sanity/sanity-utils";
 
 export default async function ServicesPage({ params }) {
 
-  const services = await getServicesData(params.slug);
-  console.log(services);
+  const slug = params.service;
+  const service = await getServicesData(slug);
+  console.log(service);
 
   return (
     <>
@@ -16,7 +17,7 @@ export default async function ServicesPage({ params }) {
           <div className="m-b0">
             <h6>Services</h6>
 
-            <h3 className="fw4 m-b20">{services?.servicesTitle}</h3>
+            <h3 className="fw4 m-b20">{service?.servicesTitle}</h3>
           </div>
           <hr />
           <div className="m-t10 m-b10">
@@ -24,15 +25,15 @@ export default async function ServicesPage({ params }) {
               className="radius-md"
               width={1080}
               height={500}
-              src={services?.image}
-              alt={services?.servicesTitle}
+              src={service?.image}
+              alt={service?.servicesTitle}
             />
           </div>
           <div className="m-t20">
-            {services?.serviceDesc && (
+            {service?.serviceDesc && (
               <PortableText
                 // Pass in block content straight from Sanity.io
-                content={services?.serviceDesc}
+                content={service?.serviceDesc}
                 projectId="jh3jibfq"
                 dataset="production"
                 // Optionally override marks, decorators, blocks, etc. in a flat
@@ -41,7 +42,7 @@ export default async function ServicesPage({ params }) {
             )}
           </div>
           <div className="bg-gray-light p-40 radius-md">
-            <p>{services?.blockText}</p>
+            <p>{service?.blockText}</p>
           </div>
         </div>
       </section>

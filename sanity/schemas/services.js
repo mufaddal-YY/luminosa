@@ -12,7 +12,8 @@ export default {
       name: "slug",
       type: "slug",
       title: "Slug",
-      options: { source: "serviceTitle" },
+      options: { source: "serviceTitle",  maxLength: 200, },
+     
     },
     {
       name: "thumbImage",

@@ -13,47 +13,7 @@ import logo from "@public/logo.png";
 import mendix from "@public/mendix.svg";
 
 function Header() {
-  // useEffect(() => {
-  //   // Mobile Menu sidebar function
-  //   var btn = document.querySelector(".menuicon");
-  //   var nav = document.querySelector(".menu-links");
-
-  //   function toggleFunc() {
-  //     btn.classList.toggle("open");
-  //     nav.classList.toggle("show");
-  //   }
-
-  //   btn.addEventListener("click", toggleFunc);
-
-  //   // Mobile Submenu open close function
-  //   var navMenu = [].slice.call(
-  //     document.querySelectorAll(".menu-links > ul > li")
-  //   );
-
-  //   for (var y = 0; y < navMenu.length; y++) {
-  //     navMenu[y].addEventListener("click", function () {
-  //       menuClick(this);
-  //     });
-  //   }
-
-  //   function menuClick(current) {
-  //     const active = current.classList.contains("open");
-  //     navMenu.forEach((el) => el.classList.remove("open"));
-
-  //     if (active) {
-  //       current.classList.remove("open");
-  //       console.log("active");
-  //     } else {
-  //       current.classList.add("open");
-  //       console.log("close");
-  //     }
-  //   }
-
-  //   return () => {
-  //     btn.removeEventListener("click", toggleFunc);
-  //     navMenu.forEach((el) => el.removeEventListener("click", menuClick));
-  //   };
-  // }, []);
+  
   useEffect(() => {
     // Mobile Menu sidebar function
     var btn = document.querySelector(".menuicon");
@@ -230,8 +190,7 @@ function Header() {
                         </li>
                         <li className="p-10">
                           <Link
-                            href={
-                              "/services/teamcenter-active-work-space-development-and-customization"
+                            href={"/services/teamcenter-active-work-space-development-and-customization"
                             }
                             className="d-flex justify-content-start">
                             <span className="m-r20 ">
@@ -290,7 +249,7 @@ function Header() {
                       <ul>
                         <li className="p-10">
                           <Link
-                            href={"/services/teamcenter-upgrade"}
+                            href="/services/teamcenter-upgrade"
                             className="d-flex justify-content-start">
                             <span className="m-r20 ">
                               <svg

@@ -13,7 +13,7 @@ const HeroPartners = ({ partnersData }) => {
             <p className="">{item.description}</p>
           </div>
 
-          <div className="row">
+          {/* <div className="row">
             <div className="col"></div>
             {item.partners.map((item) => (
               <div className="col-lg-5 col-sm-12">
@@ -31,7 +31,7 @@ const HeroPartners = ({ partnersData }) => {
               </div>
             ))}
             <div className="col"></div>
-          </div>
+          </div> */}
         </div>
       ))}
     </section>

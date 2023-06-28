@@ -29,7 +29,7 @@ export default async function Services() {
                 <div className="col-lg-3 col-md-4 col-sm-6">
                   <div className="p-10">
                     <ServiceCard
-                      link={`services/${item.slug}`}
+                      link={`/services/${item.slug}`}
                       name={item?.servicesTitle}
                       image={item.thumbImage}
                     />

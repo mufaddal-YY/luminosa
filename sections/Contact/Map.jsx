@@ -54,7 +54,7 @@ const Map = () => {
                 </div>
               </div>{" "}
               <hr />
-              <h6>+91 - 1234567890</h6>
+              <h6>+91 - 7020670133</h6>
             </div>
             <div className="feature-bx1 p-30">
               <div className="d-flex justify-content-start">
@@ -84,7 +84,7 @@ const Map = () => {
                 </div>
               </div>{" "}
               <hr />
-              <h6>email@gmail.com</h6>
+              <h6>pranav.k@luminosadigital.com</h6>
             </div>
           </div>
         </div>

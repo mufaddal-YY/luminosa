@@ -15,9 +15,14 @@ export default {
     },
     {
       name: 'bannerDescription',
-      type: 'string',
       title: 'Banner Description',
-      
+      type: 'array',
+      of: [
+        {
+          type: 'block'
+        },
+        { type: 'image' },
+      ]
     },
     {
       name: 'sectionDesc',
@@ -36,7 +41,6 @@ export default {
       title: 'Why Luminosa Head',
       
     },
-
     {
       name: 'whyImage',
       type: 'image',

@@ -2,7 +2,6 @@ import { schemaTypes } from "@sanity/schemas";
 import { defineConfig } from "sanity";
 import { deskTool } from "sanity/desk";
 
-
 const config = defineConfig({
   name: "default",
   title: "luminosa_backend",
@@ -16,7 +15,6 @@ const config = defineConfig({
   schema: {
     types: schemaTypes,
   },
-
 });
 
 export default config;

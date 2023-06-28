@@ -6,4 +6,4 @@ import careers from './careers'
 import services from './services'
 
 
-export const schemaTypes = [home, about, blogs, partners, careers, services]
+export const schemaTypes = [home, about, services, blogs, partners, careers ]

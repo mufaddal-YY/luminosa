@@ -13,7 +13,6 @@ import logo from "@public/logo.png";
 import mendix from "@public/mendix.svg";
 
 function Header() {
-  
   // useEffect(() => {
   //   // Mobile Menu sidebar function
   //   var btn = document.querySelector(".menuicon");
@@ -157,7 +156,7 @@ function Header() {
                       <ul>
                         <li className="p-10">
                           <Link
-                            href={"/services/teamcenter-implementation"}
+                            href={"/services/teamcenter-implemetation"}
                             className="d-flex justify-content-start">
                             <span className="m-r20 ">
                               <svg
@@ -183,7 +182,7 @@ function Header() {
 
                         <li className="p-10">
                           <Link
-                            href={"/services/teamcenter-staffing"}
+                            href={"/services/teamcenter-resource-staffing"}
                             className="d-flex justify-content-start">
                             <span className="m-r20 ">
                               <svg
@@ -226,13 +225,13 @@ function Header() {
                                 Teamcenter Resource Staffing
                               </span>
                             </p>
-                          </Link>{" "}
+                          </Link>
                           <hr className="border-small" />
                         </li>
                         <li className="p-10">
                           <Link
                             href={
-                              "/services/teamcenter-space-development-customization"
+                              "/services/teamcenter-active-work-space-development-and-customization"
                             }
                             className="d-flex justify-content-start">
                             <span className="m-r20 ">
@@ -282,7 +281,7 @@ function Header() {
                                 Customization
                               </span>
                             </p>
-                          </Link>{" "}
+                          </Link>
                           <hr className="border-small hidden-desk" />
                         </li>
                       </ul>
@@ -291,7 +290,7 @@ function Header() {
                       <ul>
                         <li className="p-10">
                           <Link
-                            href={"/services/teamcenterUpgrade"}
+                            href={"/services/teamcenter-upgrade"}
                             className="d-flex justify-content-start">
                             <span className="m-r20 ">
                               <svg
@@ -396,7 +395,7 @@ function Header() {
                             <p>
                               <span className="m-t0 fw6 ">Mendix</span>
                             </p>
-                          </Link>{" "}
+                          </Link>
                           <hr className="border-small hidden-desk" />
                         </li>
                       </ul>
@@ -405,7 +404,7 @@ function Header() {
                       <ul>
                         <li className="p-10">
                           <Link
-                            href={"/services/teamcenterMigration"}
+                            href={"/services/teamcenter-migration"}
                             className="d-flex justify-content-start">
                             <span className="m-r20 ">
                               <svg
@@ -459,9 +458,9 @@ function Header() {
 
                         <li className="p-10">
                           <Link
-                            href={"/services/mendix-teamcenter"}
+                            href={"/services/mendix-for-teamcenter"}
                             className="d-flex justify-content-start">
-                            <span className="m-r20 ">
+                            <span className="m-r20">
                               <Image
                                 width={40}
                                 height={40}
@@ -474,12 +473,12 @@ function Header() {
                                 Mendix For Teamcenter
                               </span>
                             </p>
-                          </Link>{" "}
+                          </Link>
                           <hr className="border-small" />
                         </li>
                         <li className="p-10">
                           <Link
-                            href={"/services/teamcenter-implementation"}
+                            href={"/services/teamcenter-cloud-implementation-deployment"}
                             className="d-flex justify-content-start">
                             <span className="m-r20 m-t10">
                               <svg
@@ -531,9 +530,7 @@ function Header() {
                   <Link href={"/careers"}>Careers</Link>
                 </li>
                 <li className="hidden-desk">
-                  <Link  href={"/contact"}>
-                    Contact
-                  </Link>
+                  <Link href={"/contact"}>Contact</Link>
                 </li>
               </ul>
             </div>

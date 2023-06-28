@@ -65,12 +65,13 @@ const Industry = ({ homeData }) => {
               ref={sliderRef}
               {...settings}
               className="portfolio-carousel p-b20 owl-btn-center-lr owl-btn-1">
-              {data.industry.map((item) => (
-                <div className="slider-item" key={data._id}>
+              {data.industry.map((item, index) => (
+                <div className="slider-item" key={index}>
                   <IndustryCard
                     name={item.industryTitle}
                     image={item.industryImage}
                   />
+
                 </div>
               ))}
             </Slider>

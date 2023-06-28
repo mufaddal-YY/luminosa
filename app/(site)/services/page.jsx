@@ -12,51 +12,11 @@ import PMLC from "@public/PMLC.png";
 import Staff from "@public/Staff.png";
 import Tci from "@public/Tci.png";
 import Cta from "@components/Cta";
+import { getHomeData, getServices } from "@sanity/sanity-utils";
 
-const Content = [
-  {
-    name: "TC Upgrade",
-    slug: "tc-upgrade",
-    thumb: TcUp,
-  },
-  {
-    name: "TC Migration",
-    slug: "tc-upgrade",
-    thumb: TcMg,
-  },
-  {
-    name: "PML Consulting",
-    slug: "tc-upgrade",
-    thumb: PMLC,
-  },
-  {
-    name: "Mendix",
-    slug: "tc-upgrade",
-    thumb: Mendix,
-  },
-  {
-    name: "Teamcenter (Customization & Development)",
-    slug: "tc-upgrade",
-    thumb: Tcnd,
-  },
-  {
-    name: "Mendix ( For Teamcenter )",
-    slug: "tc-upgrade",
-    thumb: MFT,
-  },
-  {
-    name: "Staffing",
-    slug: "tc-upgrade",
-    thumb: Staff,
-  },
-  {
-    name: "Teamcenter (Cloud Implementation)",
-    slug: "tc-upgrade",
-    thumb: Tci,
-  },
-];
+export default async function Services() {
+  const servicesData = await getServices();
 
-const ServicesPage = () => {
   return (
     <>
       <section className="section-sp4">
@@ -75,13 +35,13 @@ const ServicesPage = () => {
           </p>
           <div className="m-t20 m-b20">
             <div className="row">
-              {Content.map((item) => (
+              {servicesData.map((item) => (
                 <div className="col-lg-3 col-md-4 col-sm-6">
                   <div className="p-10">
                     <ServiceCard
-                      link={item.slug}
-                      name={item.name}
-                      image={item.thumb}
+                      link={`services/${item.slug}`}
+                      name={item.serviceTitle}
+                      image={item.thumbImage}
                     />
                   </div>
                 </div>
@@ -93,6 +53,4 @@ const ServicesPage = () => {
       <Cta />
     </>
   );
-};
-
-export default ServicesPage;
+}

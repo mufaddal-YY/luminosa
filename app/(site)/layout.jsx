@@ -29,24 +29,24 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // Fonts
-import "./../vendors/fontawesome/css/font-awesome.min.css";
-import "./../vendors/flaticon/flaticon.css";
-import "./../vendors/line-awesome/css/line-awesome.min.css";
-import "./../vendors/themify/themify-icons.css";
+import "@vendors/fontawesome/css/font-awesome.min.css";
+import "@vendors/flaticon/flaticon.css";
+import "@vendors/line-awesome/css/line-awesome.min.css";
+import "@vendors/themify/themify-icons.css";
 
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Header from "@components/Header";
+import Footer from "@components/Footer";
 
-const RootLayout = ({children}) => {
+const RootLayout = ({ children }) => {
   return (
-    <html lang='en'>
-        <body>
-            <Header/>
-            {children}
-            <Footer/>
-        </body>
+    <html lang="en">
+      <body>
+        <Header />
+         {children}
+        <Footer />
+      </body>
     </html>
-  )
-}
+  );
+};
 
 export default RootLayout;

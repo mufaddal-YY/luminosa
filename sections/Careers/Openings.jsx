@@ -43,7 +43,7 @@ const CssTextField = styled(TextField)(commonStyles);
 
 const CssAutocomplete = styled(Autocomplete)(commonStyles);
 
-const Openings = () => {
+const Openings = ({ careersData }) => {
   return (
     <section className="section-sp4 bg-gray-light">
       <div className="container">
@@ -52,13 +52,14 @@ const Openings = () => {
           Want to be the part of our team? If you have following skills, feel
           free to connect with us.
         </h6>
-
-        <div className="p-10">
-          <CareerCard />
-        </div>
-        <div className="p-10">
-          <CareerCard />
-        </div>
+        {careersData.map((item) => (
+          <div className="p-10" key={item._id}>
+            <CareerCard
+              jobTitle={item.jobTitle}
+              description={item.description}
+            />
+          </div>
+        ))}
 
         <div className="feature-bx1 p-30">
           <h6 className="m-t20 m-b20">

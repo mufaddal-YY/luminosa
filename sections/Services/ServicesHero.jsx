@@ -2,10 +2,10 @@
 import Image from "next/image";
 import { PortableText } from "@portabletext/react";
 
-const AboutHero = ({ aboutData }) => {
+const AboutHero = ({ serviceData }) => {
   return (
     <section className="section-sp4">
-      {aboutData.map((item) => (
+      {serviceData.map((item) => (
         <div className="container">
           <div className="d-flex flex-wrap justify-content-between m-b20">
             <div className="m-b0">

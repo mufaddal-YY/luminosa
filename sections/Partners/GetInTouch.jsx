@@ -1,11 +1,11 @@
 "use client";
+
 import Form from "@components/Form";
 import Link from "next/link";
 
 const GetInTouch = () => {
   return (
     <>
-      {" "}
       <section className="section-sp4 bg-gray-light">
         <div className="container">
           <div className="d-flex flex-wrap justify-content-between ">
@@ -40,11 +40,11 @@ const GetInTouch = () => {
                       fill="#171E26"
                     />
                   </svg>
-                </span>{" "}
+                </span>
                 Contact Us
               </Link>
             </div>
-          </div>{" "}
+          </div>
           <hr />
           <p>
             Look no further than our expert team at Luminosa ! Our experienced

@@ -2,10 +2,10 @@
 import React from "react";
 import { PortableText } from "@portabletext/react";
 
-const OurStory = ({ aboutData }) => {
+const OurStory = ({ serviceData }) => {
   return (
     <section className="m-b50">
-      {aboutData.map((item) => (
+      {serviceData.map((item) => (
         <div className="container">
           <h4>{item.ourStory}</h4>
           <hr />

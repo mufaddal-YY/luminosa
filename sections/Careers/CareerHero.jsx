@@ -8,7 +8,7 @@ const CareerHero = () => {
         <div className="d-flex flex-wrap justify-content-between m-b20">
           <div className="m-b0">
             <h3 className="fw4 m-b20">
-              {" "}
+              
               Career at <br className="hidden" />{" "}
               <strong>Luminosa Technology</strong>{" "}
             </h3>

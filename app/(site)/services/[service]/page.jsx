@@ -1,4 +1,4 @@
-
+"use client"
 import Image from "next/image";
 import Cta from "@components/Cta";
 import PortableText from "react-portable-text";

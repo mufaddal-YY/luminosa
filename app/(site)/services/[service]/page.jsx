@@ -3,7 +3,7 @@ import Image from "next/image";
 import Cta from "@components/Cta";
 import PortableText from "react-portable-text";
 import { getServicesData } from "@sanity/sanity-utils";
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
 
 export default async function ServicesPage({ params }) {

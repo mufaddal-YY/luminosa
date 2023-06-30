@@ -8,9 +8,16 @@ import { useRouter } from 'next/navigation';
 
 export default async function ServicesPage({ params }) {
 
-  const router = useRouter();
-  const { slug } = router.query;
+  // const router = useRouter();
   // const slug = params.service;
+  // const { slug } = router.query;
+
+  // const service = await getServicesData(slug);
+  // console.log(service);
+
+  const router = useRouter();
+  const { service: slug } = router.query;
+
   const service = await getServicesData(slug);
   console.log(service);
 

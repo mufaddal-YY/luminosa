@@ -3,21 +3,11 @@ import Image from "next/image";
 import Cta from "@components/Cta";
 import PortableText from "react-portable-text";
 import { getServicesData } from "@sanity/sanity-utils";
-import { useRouter } from 'next/navigation';
-
+import { useRouter } from "next/navigation";
 
 export default async function ServicesPage({ params }) {
 
-  // const router = useRouter();
-  // const slug = params.service;
-  // const { slug } = router.query;
-
-  // const service = await getServicesData(slug);
-  // console.log(service);
-
-  const router = useRouter();
-  const { service: slug } = router.query;
-
+  const slug = params.service;
   const service = await getServicesData(slug);
   console.log(service);
 

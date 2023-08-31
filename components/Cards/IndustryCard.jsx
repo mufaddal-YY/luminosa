@@ -10,11 +10,7 @@ const IndustryCard = ({ name, image }) => {
       <div className="portfolio-info">
         <div className="d-flex justify-content-start">
           <div className="p-20">
-            <h5 className="m-b0 text-white">
-            {name}
-            </h5>
-           
-            
+            <h5 className="m-b0 text-white">{name}</h5>
           </div>
         </div>
       </div>

@@ -13,14 +13,8 @@ const IndustryCard = ({ name, image }) => {
             <h5 className="m-b0 text-white">
             {name}
             </h5>
-            <hr className="bg-white m-t10 m-b0 border" />
-            <span className="m-b10">
            
-                <small className="fs12 text-white">
-                  Explore <BsArrowRight />
-                </small>
             
-            </span>
           </div>
         </div>
       </div>

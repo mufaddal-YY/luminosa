@@ -10,7 +10,7 @@ const TeamcenterDevelopmentCustomization = () => {
           <div className="m-b0 ">
             <h6>Services</h6>
             <h3 className="fw4 m-b20">
-              Teamcenter Active Work Space Development and Customization
+              Teamcenter Active Workspace Development and Customization
             </h3>
           </div>
           <hr />

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Cta from "@components/Cta";
-import TCI from "@public/TCI.png";
+import TCI from "@public/Tci.png";
 import TCI1 from "@public/tci-1.png";
 import Accordions from "@components/Accordions";
 

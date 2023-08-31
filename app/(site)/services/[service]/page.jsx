@@ -1,9 +1,9 @@
 "use client"
+
 import Image from "next/image";
 import Cta from "@components/Cta";
 import PortableText from "react-portable-text";
 import { getServicesData } from "@sanity/sanity-utils";
-import { useRouter } from "next/navigation";
 
 export default async function ServicesPage({ params }) {
 
@@ -15,9 +15,8 @@ export default async function ServicesPage({ params }) {
     <>
       <section className="section-sp4">
         <div className="container">
-          <div className="m-b0">
+          <div className="m-b0 ">
             <h6>Services</h6>
-
             <h3 className="fw4 m-b20">{service?.servicesTitle}</h3>
           </div>
           <hr />

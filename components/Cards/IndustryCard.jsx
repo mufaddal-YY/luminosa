@@ -1,9 +1,7 @@
-"use client";
 import Image from "next/image";
-import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 
-const IndustryCard = ({ link, name, image }) => {
+const IndustryCard = ({ name, image }) => {
   return (
     <div className="portfolio-box style-2 m-b30">
       <div className="portfolio-media ovpr-middle">

@@ -1,8 +1,5 @@
 "use client";
 import Image from "next/image";
-import WhyLumi from "@public/whyLuminosa.png";
-import { PortableText } from "@portabletext/react";
-
 const WhyLuminosa = ({ homeData }) => {
   return (
     <section className="section-sp4 bg-gray-light">

@@ -2,8 +2,6 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
 import IndustryCard from "@components/Cards/IndustryCard";
-import { BsArrowRight } from "react-icons/bs";
-import Image from "next/image";
 
 const Industry = ({ homeData }) => {
   const settings = {

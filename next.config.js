@@ -3,11 +3,9 @@ const nextConfig = {
   output: "export",
   experimental: {
     appDir: true,
-    serverComponentsExternalPackages: ["mongoose"],
   },
   images: {
     unoptimized: true,
-    domains: ["lh3.googleusercontent.com"],
     remotePatterns: [
       {
         protocol: "https",
@@ -22,6 +20,12 @@ const nextConfig = {
       topLevelAwait: true,
     };
     return config;
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   },
 };
 

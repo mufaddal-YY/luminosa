@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import { PortableText } from "@portabletext/react";
 
@@ -25,7 +23,6 @@ const HeroBanner = ({ homeData }) => {
             <h6 className="text-white">{item.bannerTag}</h6>
             <hr />
             <p className=" text-white m-b20">
-              {" "}
               <PortableText value={item.bannerDescription} />
             </p>
             <div className=" justify-content-start">

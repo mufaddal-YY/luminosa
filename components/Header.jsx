@@ -116,7 +116,7 @@ function Header() {
                       <ul>
                         <li className="p-10">
                           <Link
-                            href={"/services/teamcenter-implementation"}
+                            href={"/services/teamcenterImplementation"}
                             className="d-flex justify-content-start">
                             <span className="m-r20 ">
                               <svg
@@ -142,7 +142,7 @@ function Header() {
 
                         <li className="p-10">
                           <Link
-                            href={"/services/teamcenter-resource-staffing"}
+                            href={"/services/teamcenterResource"}
                             className="d-flex justify-content-start">
                             <span className="m-r20 ">
                               <svg
@@ -190,7 +190,7 @@ function Header() {
                         </li>
                         <li className="p-10">
                           <Link
-                            href={"/services/teamcenter-active-work-space-development-and-customization"
+                            href={"/services/teamcenter-development-customization"
                             }
                             className="d-flex justify-content-start">
                             <span className="m-r20 ">
@@ -236,7 +236,7 @@ function Header() {
                             </span>
                             <p>
                               <span className="m-t0 fw6 ">
-                                Teamcenter /Active Wok Space Development &
+                                Teamcenter /Active Work Space Development &
                                 Customization
                               </span>
                             </p>
@@ -249,7 +249,7 @@ function Header() {
                       <ul>
                         <li className="p-10">
                           <Link
-                            href="/services/teamcenter-upgrade"
+                            href="/services/teamcenterUpgrade"
                             className="d-flex justify-content-start">
                             <span className="m-r20 ">
                               <svg
@@ -282,7 +282,7 @@ function Header() {
                         </li>
                         <li className="p-10">
                           <Link
-                            href={"/services/plm-consulting"}
+                            href={"/services/plmConsulting"}
                             className="d-flex justify-content-start">
                             <span className="m-r20">
                               <svg
@@ -363,7 +363,7 @@ function Header() {
                       <ul>
                         <li className="p-10">
                           <Link
-                            href={"/services/teamcenter-migration"}
+                            href={"/services/teamcenterMigration"}
                             className="d-flex justify-content-start">
                             <span className="m-r20 ">
                               <svg
@@ -417,7 +417,7 @@ function Header() {
 
                         <li className="p-10">
                           <Link
-                            href={"/services/mendix-for-teamcenter"}
+                            href={"/services/mendixForTeamcenter"}
                             className="d-flex justify-content-start">
                             <span className="m-r20">
                               <Image
@@ -437,7 +437,7 @@ function Header() {
                         </li>
                         <li className="p-10">
                           <Link
-                            href={"/services/teamcenter-cloud-implementation-deployment"}
+                            href={"/services/tc-cloud"}
                             className="d-flex justify-content-start">
                             <span className="m-r20 m-t10">
                               <svg

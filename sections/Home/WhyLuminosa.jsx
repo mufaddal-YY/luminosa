@@ -2,7 +2,7 @@
 import Image from "next/image";
 const WhyLuminosa = ({ homeData }) => {
   return (
-    <section className="section-sp4 bg-gray-light">
+    <section className="section-sp4 bg-white">
       <div className="container">
         {homeData.map((item) => (
           <div className="row">
@@ -18,11 +18,11 @@ const WhyLuminosa = ({ homeData }) => {
             </div>
             <div className="col-lg-6 col-sm-12 align-items-center">
               <div className="p-20 m-t20">
-                <h3 className="fw4 m-b20">{item.whyLuminosa}</h3>
+                <h3 className="fw4 m-b20">
+                  <strong>{item.whyLuminosa}</strong>
+                </h3>
                 <hr className="border-small" />
-                <p>
-                 {item.whyLuminosaDesc}
-                </p>
+                <p>{item.whyLuminosaDesc}</p>
               </div>
             </div>
           </div>

@@ -66,7 +66,7 @@ const TeamcenterDevelopmentCustomization = () => {
             </div>
           </div>
 
-          <div className="bg-gray-light p-40 radius-md">
+          <div>
             <p>
               So whether you're looking to enhance the functionality of your
               Teamcenter system, improve your user experience with Active

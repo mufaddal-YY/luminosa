@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Cta from "@components/Cta";
 import TC from "@public/mendix-for-teamcenter.png";
-import Accordions from "@components/Accordions"
+import Accordions from "@components/Accordions";
 
 const accordionData = [
   {
@@ -38,7 +38,6 @@ const accordionData = [
 ];
 
 const MendixForTeamcenter = () => {
- 
   return (
     <>
       <section className="section-sp4">
@@ -91,7 +90,6 @@ const MendixForTeamcenter = () => {
           </div>
           <div className="p-10">
             <p>
-              
               <strong>
                 Some of the specific Mendix for Teamcenter services we offer
                 include:
@@ -99,11 +97,9 @@ const MendixForTeamcenter = () => {
             </p>
 
             <Accordions accordionData={accordionData} />
-
-            
           </div>
 
-          <div className="bg-gray-light p-40 radius-md">
+          <div>
             <p>
               At Luminosa Technology, we are committed to delivering innovative
               and effective solutions that help our clients achieve their goals.

@@ -81,7 +81,7 @@ const Mendix = () => {
             </p>
           </div>
 
-          <div className="bg-gray-light p-40 radius-md">
+          <div>
             <p>
               At Luminosa Technology, we pride ourselves on providing
               exceptional service and support to our Mendix clients. We are

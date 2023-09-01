@@ -2,7 +2,6 @@ import ServiceCard from "@components/Cards/ServiceCard";
 import Link from "next/link";
 import { BsArrowRight } from "react-icons/bs";
 
-
 const Services = ({ servicesData }) => {
   return (
     <section className="section-sp4">
@@ -10,8 +9,7 @@ const Services = ({ servicesData }) => {
         <div className="d-flex flex-wrap justify-content-between ">
           <div className="m-b0">
             <h3 className="fw4">
-             
-              <strong>Services</strong> we provide
+              <strong>Services we provide</strong> 
             </h3>
           </div>
           <div className="flex-column">

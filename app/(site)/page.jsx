@@ -7,7 +7,6 @@ import WhyLuminosa from "@sections/Home/WhyLuminosa";
 import { getHomeData, getServices } from "@sanity/sanity-utils";
 
 export default async function HomePage() {
-  
   const homeData = await getHomeData();
   const servicesData = await getServices();
 

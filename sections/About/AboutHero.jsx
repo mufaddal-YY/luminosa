@@ -16,7 +16,12 @@ const AboutHero = ({ aboutData }) => {
             </div>
           </div>
 
-          <Image width={1920} height={600}  src={item.aboutImage} alt="about Image" />
+          <Image
+            width={1920}
+            height={600}
+            src={item.aboutImage}
+            alt="about Image"
+          />
         </div>
       ))}
     </section>

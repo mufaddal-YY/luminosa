@@ -46,7 +46,6 @@ const Mendix = () => {
 
           <div className="row">
             <div className="col-lg-6 col-sm-12">
-              
               <div className="m-t10 m-b10">
                 <Image
                   className="radius-md"
@@ -58,7 +57,6 @@ const Mendix = () => {
               </div>
             </div>
             <div className="col-lg-6 col-sm-12">
-              
               <div className="m-t20">
                 <p>
                   At Luminosa Technology, we understand that every business has
@@ -93,7 +91,7 @@ const Mendix = () => {
             <Accordions accordionData={accordionData} />
           </div>
 
-          <div className="bg-gray-light p-40 radius-md">
+          <div>
             <p>
               At Luminosa Technology, we pride ourselves on our expertise in
               Teamcenter cloud implementation and deployment. Our team of

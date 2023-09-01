@@ -13,7 +13,6 @@ import logo from "@public/logo.png";
 import mendix from "@public/mendix.svg";
 
 function Header() {
-  
   useEffect(() => {
     // Mobile Menu sidebar function
     var btn = document.querySelector(".menuicon");
@@ -79,7 +78,7 @@ function Header() {
               <span></span>
             </button>
 
-            <div className="secondary-menu hidden">
+            {/* <div className="secondary-menu hidden">
               <div className="header-contact">
                 <Link
                   href="/contact"
@@ -87,7 +86,7 @@ function Header() {
                   Contact <BsArrowRight />
                 </Link>
               </div>
-            </div>
+            </div> */}
 
             {/* <!-- Navigation Menu ==== --> */}
             <div
@@ -190,7 +189,8 @@ function Header() {
                         </li>
                         <li className="p-10">
                           <Link
-                            href={"/services/teamcenter-development-customization"
+                            href={
+                              "/services/teamcenter-development-customization"
                             }
                             className="d-flex justify-content-start">
                             <span className="m-r20 ">
@@ -488,7 +488,7 @@ function Header() {
                 <li>
                   <Link href={"/careers"}>Careers</Link>
                 </li>
-                <li className="hidden-desk">
+                <li>
                   <Link href={"/contact"}>Contact</Link>
                 </li>
               </ul>

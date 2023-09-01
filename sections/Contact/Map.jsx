@@ -1,4 +1,3 @@
-
 const Map = () => {
   return (
     <section className="section-sp4">
@@ -86,7 +85,7 @@ const Map = () => {
             </div>
           </div>
         </div>
-      </div> 
+      </div>
     </section>
   );
 };

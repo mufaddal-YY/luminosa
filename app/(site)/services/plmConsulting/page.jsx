@@ -37,7 +37,7 @@ const PLMConsulting = () => {
             </div>
           </div>
 
-          <div className="bg-gray-light p-40 radius-md">
+          <div>
             <p>
               If you're looking for comprehensive and reliable consulting
               services for Siemens Teamcenter, look no further than Luminosa

@@ -1,6 +1,4 @@
-"use client";
 import ServiceCard from "@components/Cards/ServiceCard";
-import Link from "next/link";
 import Cta from "@components/Cta";
 import { getServices } from "@sanity/sanity-utils";
 

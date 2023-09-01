@@ -51,7 +51,7 @@ const Industry = ({ homeData }) => {
           <div className="d-flex justify-content-between ">
             <div className="m-b0">
               <h3 className="fw4">
-                Industry - Specific <strong> Solutions</strong>
+                 <strong>Industry - Specific Solutions</strong>
               </h3>
             </div>
           </div>
@@ -69,7 +69,6 @@ const Industry = ({ homeData }) => {
                     name={item.industryTitle}
                     image={item.industryImage}
                   />
-
                 </div>
               ))}
             </Slider>

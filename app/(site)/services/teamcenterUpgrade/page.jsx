@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Cta from "@components/Cta";
-import TC from "@public/tc-upgrade.png";
 import Up from "@public/up.png";
 import Accordions from "@components/Accordions";
 
@@ -101,7 +100,7 @@ const TeamcenterUpgrade = () => {
 
             <Accordions accordionData={accordionData} />
           </div>
-          <div className="bg-gray-light p-40 radius-md">
+          <div>
             <p>
               At Luminosa Technology, we take pride in our ability to provide
               exceptional Teamcenter implementation services that help our

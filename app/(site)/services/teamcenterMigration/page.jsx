@@ -47,7 +47,7 @@ const TeamcenterMigration = () => {
             </div>
           </div>
 
-          <div className="bg-gray-light p-40 radius-md">
+          <div>
             <p>
               At Luminosa Technology, we are committed to delivering
               high-quality services that exceed our clients&#39; expectations.

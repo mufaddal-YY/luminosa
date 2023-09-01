@@ -17,7 +17,6 @@ const ServiceCard = ({ link, name, image }) => {
               </h6>
               <span className="text-red m-b10">
                 <Link href={link}>
-                  
                   <small className="fs12">
                     Explore <BsArrowRight />
                   </small>

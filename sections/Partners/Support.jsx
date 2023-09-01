@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 
 const Support = ({ partnersData }) => {
@@ -9,9 +8,7 @@ const Support = ({ partnersData }) => {
           <div className="container">
             <h4>Support</h4>
             <p>{item.supportText}</p>
-            
             <hr />
-
             {item.support.map((data, index) => (
               <div className="section-sp4">
                 <div className="row">

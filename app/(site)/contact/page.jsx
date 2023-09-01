@@ -1,14 +1,14 @@
-"use client";
-import ContactHero from '@sections/Contact/ContactHero'
-import Map from '@sections/Contact/Map'
+"use client"
+import ContactHero from "@sections/Contact/ContactHero";
+import Map from "@sections/Contact/Map";
 
 const page = () => {
   return (
     <>
-    <ContactHero/>
-    <Map/>
+      <ContactHero />
+      <Map />
     </>
-  )
-}
+  );
+};
 
-export default page
+export default page;

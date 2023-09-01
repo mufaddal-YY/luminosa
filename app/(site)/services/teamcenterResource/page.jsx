@@ -38,7 +38,7 @@ const TeamcenterResourceStaffing = () => {
             </div>
           </div>
 
-          <div className="bg-gray-light p-40 radius-md">
+          <div>
             <p>
               Whether you need short-term staffing support or long-term resource
               planning, Luminosa Technology can help. Contact us today to learn

@@ -10,7 +10,7 @@ const Cta = () => {
             Join the digital revolution and accelerate
           </h4>
           <h3 className="text-white d-flex justify-content-start m-b30">
-            your transformation today!
+            your transformation today
           </h3>
           <div className="d-flex justify-content-start">
             <Link
